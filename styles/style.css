@@ -1,1 +1,48 @@
-/* место для вашего кода */
+.header {
+  padding: 95px 50px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+
+}
+
+.header__links-list{
+  display: flex;
+  gap: 32px;  
+}
+
+.header__links-list-item{
+  list-style: circle;
+}
+
+.header__contacts {
+  justify-self:end;
+  display: flex; 
+  flex-direction: column;
+}
+.header__adress {
+
+}
+.cover {
+  padding: 165px 50px 50px;
+}
+
+.lots {
+  padding: 180px 24px 120px;
+}
+.about {
+  padding: 0 24px 180px;
+}
+.footer {
+  padding: 0 50px 82pz;
+}
+
+.content-main_color {
+  
+}
