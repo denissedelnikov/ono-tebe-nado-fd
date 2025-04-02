@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
+  font-size: 18px;
 }
 
 .header__logo {
@@ -21,16 +22,51 @@
   list-style: circle;
 }
 
-.header__contacts {
-  justify-self:end;
-  display: flex; 
-  flex-direction: column;
+.header__link {
+  text-decoration: none;
+}
+
+.adress {
+  justify-self:end; 
+  font-style: normal;
+}
+.adress a {
+  text-decoration: none;
 }
 .header__adress {
-
+  display: flex; 
+  flex-direction: column;
+  max-width: 240px;
 }
 .cover {
   padding: 165px 50px 50px;
+  background-image: url('/images/cover.jpg');
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.aligned-text {
+  display: block;
+  font-weight: bold;
+  color: #fff;
+  font-size: 100px;
+  text-transform: uppercase;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
 }
 
 .lots {
