@@ -13,35 +13,45 @@
 
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
-  gap: 32px;  
+  gap: 32px; 
+
+}
+.header__menu .header__links-list-item_no-bullit {
+  list-style: none;
 }
 
 .header__links-list-item{
   list-style: circle;
 }
 
-.header__link {
+.header__link-active {
+  text-decoration: none;
+}
+.adress {
+  display: flex; 
+  flex-direction: column;
+  max-width: 260px;
+  font-style: normal;
+}
+
+.adress__items {
   text-decoration: none;
 }
 
-.adress {
-  justify-self:end; 
-  font-style: normal;
+.header__adress-items-active {
+  text-decoration: underline;
 }
-.adress a {
-  text-decoration: none;
-}
+
 .header__adress {
-  display: flex; 
-  flex-direction: column;
-  max-width: 240px;
+  justify-self:end; 
 }
 .cover {
   padding: 165px 50px 50px;
   background-image: url('/images/cover.jpg');
   position: relative;
+  z-index: -2;
 }
 
 .overlay {
@@ -51,10 +61,12 @@
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 .aligned-text {
   display: block;
+  color: #fff;
   font-weight: bold;
   color: #fff;
   font-size: 100px;
@@ -63,22 +75,190 @@
 
 .aligned-text_center {
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  margin-right: -26px;
 }
 
 .aligned-text_right {
   text-align: right;
+  margin-right: -26px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 28px;
+
+}
+
+.coover__description {
+  margin-top: 106px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cover__description-text {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 22px;
+  word-spacing:19px;
+}
+
+.bet-button {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  font-size: 22px;
+  width: 256px;
+  height: 51px;
+  border: 1px solid #fff;
 }
 
 .lots {
-  padding: 180px 24px 120px;
+  padding: 180px 24px 0;
+}
+
+.lots__hadding {
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 40px;
+  margin-bottom: 27px;
+}
+
+.lots__card-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  height: 596px;
+  
+}
+
+.card-link {
+  height: 100%;
+}
+.card {
+  position: relative;
+  height: 100%;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: -2;
+  color: #fff;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card__title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.card__text {
+  font-size: 20px;
+}
+
+.lots__look-more-link {
+  display: block;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.card_type_film {
+  background-image: url('/images/card-lot-01.jpg');
+}
+
+.card_type_book {
+  background-image: url('/images/card-lot-02.jpg');
+}
+
+.card_type_picture {
+  background-image: url('/images/card-lot-03.jpg');
 }
 .about {
-  padding: 0 24px 180px;
+  padding: 165px 24px 180px;
+}
+
+.about__column {
+  display: grid;
+  grid-template-columns:  min-content 1fr;
+  gap: 72px;
+}
+.about__logo {
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 100%;
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+}
+
+.about__logo-image {
+  width: 148px;
+}
+
+.about__column-text {
+  padding-top: 98px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
 }
 .footer {
   padding: 0 50px 82pz;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.content-main_color {
-  
+.footer__menu {
+  justify-self: center;
 }
+
+.footer__links-list {
+  list-style-type: none;
+}
+
+.footer__links-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__link-no-active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+  gap: 48px;
+}
+.footer__social-list-item {
+  width: 48px;
+  height: 48px;
+}
+
