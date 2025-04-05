@@ -190,7 +190,7 @@
   background-image: url('/images/card-lot-03.jpg');
 }
 .about {
-  padding: 158px 27px 180px 71px;
+  padding: 156px 27px 180px 71px;
 }
 
 .about__column {
@@ -213,7 +213,7 @@
 }
 
 .about__column-text {
-  padding-top: 98px;
+  padding-top: 100px;
 }
 
 .about__title {
@@ -233,7 +233,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 0 50px 82px;
+  padding: 0 50px 72px;
   font-size: 18px;
 }
 
