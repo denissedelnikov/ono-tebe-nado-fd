@@ -240,7 +240,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 0 50px 83px;
+  padding: 2px 50px 85px;
   font-size: 18px;
 }
 
