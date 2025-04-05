@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 96px 50px 98px;
+  padding: 96px 50px 97px;
   font-size: 18px;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .adress_items-location {
-  line-height: 30px;
+  line-height: 27px;
 }
 
 .header__adress {
