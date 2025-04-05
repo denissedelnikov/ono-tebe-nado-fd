@@ -40,6 +40,7 @@
   flex-direction: column;
   font-style: normal;
   gap: 4px;
+  
 }
 
 .adress__items {
@@ -243,12 +244,16 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 2px 50px 86px;
+  padding: 2px 50px 84px;
   font-size: 18px;
 }
 
 .footer__menu {
   justify-self: center;
+}
+
+.footer__adress  {
+  margin-top: 2px;
 }
 
 .footer__links-list {
