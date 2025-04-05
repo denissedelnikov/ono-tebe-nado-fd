@@ -17,22 +17,17 @@
   gap: 32px;
 }
 
-.header__menu {
-  margin-bottom: -1px;
-  margin-left: 2px;
-}
-
 .header__menu .header__links-list-item_no-bullit {
   list-style: none;
 }
 
 .header__links-list-item {
   list-style: circle;
-  text-underline-offset: 4px;
 }
 
 .header__link-active {
   text-decoration: none;
+  text-underline-offset: 4px;
 }
 
 .adress {
@@ -60,7 +55,6 @@
 .header__adress {
   justify-self: end;
   max-width: 241px;
-  margin-top: 6px;
 }
 
 .cover {
@@ -260,16 +254,15 @@
   justify-self: center;
 }
 
-.footer__adress {
-  margin-top: 2px;
-}
-
 .footer__links-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   list-style-type: none;
+}
+
+.footer__link-active {
   text-underline-offset: 3px;
 }
 
