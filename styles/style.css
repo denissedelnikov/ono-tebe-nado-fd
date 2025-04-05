@@ -169,7 +169,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 48px 40px;
+  padding: 49px 40px;
 }
 
 .card__title {
@@ -260,7 +260,7 @@
   justify-self: center;
 }
 
-.footer__adress  {
+.footer__adress {
   margin-top: 2px;
 }
 
