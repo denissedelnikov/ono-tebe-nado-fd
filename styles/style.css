@@ -183,7 +183,7 @@
 
 .lots__look-more-link {
   display: block;
-  margin-top: 30px;
+  margin-top: 31px;
   margin-left: 40px;
   font-size: 20px;
 }
@@ -243,7 +243,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 4px 50px 86px;
+  padding: 2px 50px 86px;
   font-size: 18px;
 }
 
@@ -257,7 +257,7 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  text-underline-offset: 5px;
+  text-underline-offset: 3px;
 }
 
 .footer__link-no-active {
