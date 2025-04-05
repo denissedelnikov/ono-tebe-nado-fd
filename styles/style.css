@@ -14,11 +14,10 @@
 
 .header__links-list {
   display: flex;
-  gap: 32px; 
+  gap: 32px;
 }
 
-.header__menu
-.header__links-list-item_no-bullit {
+.header__menu .header__links-list-item_no-bullit {
   list-style: none;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .adress {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   font-style: normal;
 }
@@ -50,7 +49,7 @@
 
 .header__adress {
   justify-self: end;
-  max-width: 241px; 
+  max-width: 241px;
 }
 
 .cover {
