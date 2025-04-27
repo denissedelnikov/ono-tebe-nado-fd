@@ -284,3 +284,17 @@
   height: 48px;
 }
 
+input {
+  width: 200px;
+  height: 200px;
+  border: none;
+}
+
+.hint {
+  display: none;
+}
+
+
+input:focus + .hint {
+  display: block;
+}
